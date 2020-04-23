@@ -11,7 +11,7 @@ $pwd="5Lb2d10rQu";
 
 try
 {
-    $bdd = new PDO('mysql:host=sql307.hebergratuit.net;dbname=heber_25599695_article;charset=utf8','heber_25599695','5Lb2d10rQu');
+    $bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset",$login,$pwd);
 }
 catch (Exception $e)
 {
